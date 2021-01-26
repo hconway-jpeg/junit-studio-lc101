@@ -30,6 +30,8 @@ public class BalancedBrackets {
                 } else if (ch == ']') {
                     brackets--;
                 }
+            } else {
+                return false;
             }
         }
         return brackets == 0;

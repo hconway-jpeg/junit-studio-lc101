@@ -49,27 +49,27 @@ public class BalancedBracketsTest {
 
     @Test
     public void testEight() {
-        //
+        assertTrue(BalancedBrackets.hasBalancedBrackets(""));
     }
 
     @Test
     public void testNine() {
-        //
+        assertFalse(BalancedBrackets.hasBalancedBrackets("][]["));
     }
 
     @Test
     public void testTen() {
-        //
+        assertFalse(BalancedBrackets.hasBalancedBrackets("["));
     }
 
     @Test
     public void testEleven() {
-        //
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[][][]"));
     }
 
     @Test
     public void testTwelve() {
-        //
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[[[]]]"));
     }
 
 }

@@ -105,6 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BalancedBracketsTest.testEight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="testEight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BalancedBracketsTest.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
@@ -150,6 +167,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BalancedBracketsTest" />
+        <item itemvalue="JUnit.BalancedBracketsTest.testEight" />
         <item itemvalue="JUnit.BalancedBracketsTest.testTwo" />
         <item itemvalue="JUnit.BalancedBracketsTest.onlyBracketsReturnsTrue" />
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
