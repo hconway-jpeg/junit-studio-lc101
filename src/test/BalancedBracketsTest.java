@@ -44,7 +44,7 @@ public class BalancedBracketsTest {
 
     @Test
     public void testSeven() {
-        //
+        assertFalse(BalancedBrackets.hasBalancedBrackets("LaunchC]ode"));
     }
 
     @Test
