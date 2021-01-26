@@ -32,5 +32,44 @@ public class BalancedBracketsTest {
         assertFalse(BalancedBrackets.hasBalancedBrackets("Launc[hCode"));
     }
 
+    @Test
+    public void testFive() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("]["));
+    }
+
+    @Test
+    public void testSix() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("La]unchCode["));
+    }
+
+    @Test
+    public void testSeven() {
+        //
+    }
+
+    @Test
+    public void testEight() {
+        //
+    }
+
+    @Test
+    public void testNine() {
+        //
+    }
+
+    @Test
+    public void testTen() {
+        //
+    }
+
+    @Test
+    public void testEleven() {
+        //
+    }
+
+    @Test
+    public void testTwelve() {
+        //
+    }
 
 }
